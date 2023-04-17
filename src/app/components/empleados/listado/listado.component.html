@@ -1,0 +1,10 @@
+{{empleados | json}}
+
+<div *ngFor="let empleado of empleados">
+  <ul>
+    <li>{{empleado.nombres}} {{empleado.apellidos}}</li>
+    <li>{{empleado.direccion}}</li>
+    <li>{{empleado.sueldo}}</li>
+    <button (click)="eliminar(empleado)">Eliminar</button>
+  </ul>
+</div>
