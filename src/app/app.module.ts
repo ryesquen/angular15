@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { EmpleadosModule } from './components/empleados/empleados.module';
 import { ClientesModule } from './components/clientes/clientes.module';
 import { DragAndDropComponent } from './components/drag-and-drop/drag-and-drop.component';
+import {DragDropModule} from '@angular/cdk/drag-drop';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { DragAndDropComponent } from './components/drag-and-drop/drag-and-drop.c
   imports: [
     BrowserModule,
     EmpleadosModule,
-    ClientesModule
+    ClientesModule,
+    DragDropModule
   ],
   providers: [],
   bootstrap: [AppComponent]
