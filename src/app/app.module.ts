@@ -4,10 +4,12 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { EmpleadosModule } from './components/empleados/empleados.module';
 import { ClientesModule } from './components/clientes/clientes.module';
+import { DragAndDropComponent } from './components/drag-and-drop/drag-and-drop.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DragAndDropComponent
   ],
   imports: [
     BrowserModule,

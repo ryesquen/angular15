@@ -11,7 +11,7 @@ export class PaginaInicioComponent {
   listaClientes: ICliente[] = [
     {
       nombre: 'Renzo',
-      credito: 23.87
+      credito: 23.86
     }
   ]
   agregar() {
